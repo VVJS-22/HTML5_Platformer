@@ -10,7 +10,7 @@ img {
     display: none;
 }
 
-.canvas-container {
-    width: 816px;
-    margin: 100px auto;
+.canvas-container, #main_screen {
+    width: 100%;
+    height: 100vh;
 }

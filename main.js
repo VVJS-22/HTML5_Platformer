@@ -293,6 +293,9 @@ var demoCompleteScreen = function(now, oldTime) {
     context.fillStyle = "rgb(255, 247, 227, " + 
         (0.50+0.10*Math.cos(2*3.1415*(Math.round(now - oldTime)/1000))) + ")";
     context.fillText("Press ESC to Exit", 200, 290);
+    context.font = "14px Luminari, fantasy";
+    zeroPad(points, 5) === '10800'
+    && context.fillText("V€LLi KézhaMai K@laiLA Mažhai Pei¥um", 560, 470);
     let currentFrame = Math.floor((((Date.now())/100) % 
         heroAnimations[3][1]));
     context.drawImage(heroAnimations[3][0], 
